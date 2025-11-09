@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dusk_Dream</title>
+  <style>
+    body {
+      background-color: #EDEDED;
+      text-decoration: none;
+      color: rgb(6, 4, 4);
+    }
+      header {
+            background-color: #EDEDED;
+            color: rgb(10, 7, 7);
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color:#EDEDED;
+        }
+
+        nav a {
+            color: rgb(238, 235, 235);
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color:#EDEDED;
+        }
+        .product {
+            display:flex;
+           
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #EDEDED;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            margin: 15px 0 10px;
+        }
+        .product-card p {
+            color: #0b0808;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .product-card button {
+            background-color: #EDEDED;
+            color: black;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .product-card button:hover {
+            background-color: #ff3b2f;
+        }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 34px;
+      align-items: center;
+      margin-bottom: 32px;
+      background-color: #EDEDED;
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, rgba(109, 95, 95, 0.02), rgba(255, 255, 255, 0.01));
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(5, 5, 5, 0.6);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--glass);
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 18px;
+      color: rgb(7, 6, 6);
+    }
+
+    .headline {
+      font-size: 36px;
+      margin: 0 0 12px 0;
+      /* line-height: 1.05; */
+      letter-spacing: -0.6px;
+      color: rgb(12, 11, 11);
+    }
+
+    .lede {
+      color: var(--muted);
+      margin: 0 0 20px 0;
+      color: rgb(4, 3, 3);
+    } 
+
+    footer {
+      color: rgb(11, 10, 10);
+      background-color: #EDEDED;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+     <br>
+       <nav style="background-color:#070707; color: #f9f6f6;">
+        <a href="#">Home</a>
+        <a href="bag.html">Bag's</a>
+    </nav>
+    <br>
+    <section class="hero">
+      <div class="hero-card">
+        <span class="tag">New- Arrival 2025</span>
+        <h2 class="headline">“Endless Choices, One Click Away”</h2>
+        <p class="lede">Dusk_Dream blends Where Fashion Meets the Moonlight.. with contemporary silhouettes. Explore
+          limited editions and maison staples.</p>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="bag-plate" id="carousel">
+          <!-- <img src="walpaper.jpg" width="280px" height="200px"> -->
+        </div>
+      </div>
+    </section>
+    <!-- <img src="walpaper.jpg" alt="discover the icon" class="img" > -->
+    <h2>Explore a selection of the duskdream's Creations</h2>
+    <br>
+    <br>
+ <h2> Hand Bags</h2>
+    <div class="product" style="background-color:#EDEDED; color: #0b0808;">
+    
+      <div class="product-card" style="background-color:#EDEDED; ">
+        <a href="bag.html"> <img src="bag.jpg" alt="womens bags"></a>
+        <h3>Hand Bags</h3>
+        "Where Every Piece Tells a Story"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"><img src="bg17.jpg"></a>
+         <h3>Hand Bags</h3>
+        "Where Every Piece Tells a Story"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="bg10.jpg"></a>
+         <h3>Hand Bags</h3>
+        "Where Every Piece Tells a Story"
+      </div>
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="bg8.jpg"></a>
+         <h3>Hand Bags</h3>
+        "Where Every Piece Tells a Story"
+      </div>
+    </div>
+ <h2 style="text-align: center;"> Party Bags</h2>
+    <div class="product" style="background-color:#EDEDED;">
+    
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="pb1.jpg" alt="womens bags"></a>
+        <h3>Party Bags</h3>
+        "For Every Step, A Statement"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"><img src="pb2.jpg"></a>
+         <h3>Party Bags</h3>
+        "For Every Step, A Statement"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="pb3.jpg"></a>
+         <h3>Party Bags</h3>
+        "For Every Step, A Statement"
+      </div>
+       <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="pb4.jpg"></a>
+         <h3>Party Bags</h3>
+         "For Every Step, A Statement"
+      </div>
+    </div>
+<h2 style="text-align: center;">Venity Bags</h2>
+    <div class="product" style="background-color: #EDEDED;">
+     
+      <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="lb1.jpg" alt="womens bags"></a>
+        <h3>Venity Bags</h3>
+        "Style That Travels With You"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color:#EDEDED;">
+        <a href="bag.html"><img src="lb2.jpg"></a>
+         <h3>Venity Bags</h3>
+        "Style That Travels With You"
+      </div>
+      <br>
+
+      <div class="product-card" style="background-color:#EDEDED;">
+        <a href="bag.html"> <img src="lb3.jpg"></a>
+         <h3>Venity Bags</h3>
+         "Style That Travels With You"
+      </div>
+       <div class="product-card" style="background-color: #EDEDED;">
+        <a href="bag.html"> <img src="lb4.jpg"></a>
+         <h3>VenityBags</h3>
+         "Style That Travels With You"
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <footer>
+      <footer style="background-color: #EDEDED; color: #080606; padding: 40px 0;">
+        <div style="display: flex; flex-wrap: wrap; max-width: 1200px; margin: auto; justify-content: space-between;">
+
+          <!-- About -->
+          <div style="flex: 1 1 200px; margin: 10px;">
+            <h3 style="color: rgb(11, 6, 6);">About Us</h3>
+            <p style="color:rgb(11, 6, 6);">We are your one-stop shop for quality products at unbeatable prices. Shop with
+              confidence and enjoy fast delivery.</p>
+          </div>
+
+          <!-- Customer Service -->
+          <div style="flex: 1 1 200px; margin: 10px;">
+            <h3 style="color:rgb(11, 7, 7);">Customer Service </h3>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="help.html" style="color: rgb(12, 6, 6); text-decoration: none;">Help Center</a></li>
+              <li><a href="return.html" style="color: rgb(11, 6, 6); text-decoration: none;">Returns</a></li>
+              <li><a href="shipping.html" style="color:rgb(7, 4, 4); text-decoration: none;">Shipping Info</a></li>
+              <li><a href="faq.html" style="color: rgb(8, 4, 4); text-decoration: none;">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div style="flex: 1 1 200px; margin: 10px;">
+            <h3 style="color: rgb(2, 2, 2);">Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="shop.html" style="color:  rgb(10, 5, 5); text-decoration: none;">Shop</a></li>
+              <li><a href="about.html" style="color: rgb(11, 5, 5); text-decoration: none;">About</a></li>
+              <li><a href="contact.html" style="color:  rgb(11, 4, 4); text-decoration: none;">Contact</a></li>
+
+            </ul>
+          </div>
+
+          <!-- Follow Us -->
+          <div style="flex: 1 1 200px; margin: 10px;">
+            <h3 style="color: rgb(7, 4, 4);">Follow Us</h3>
+            <a href="https://facebook.com" style="color: rgb(6, 2, 2); text-decoration: none; margin-right: 10px;">Facebook</a>
+            <a href="https://instagram.com"
+              style="color: rgb(11, 3, 3); text-decoration: none; margin-right: 10px;">Instagram</a>
+            <a href="https://twitter.com" style="color: rgb(5, 2, 2); text-decoration: none;">Twitter</a>
+          </div>
+        </div>
+
+        <hr style="border-top: 1px solid white; margin: 30px auto; width: 90%;">
+
+        <p style="text-align: center; color: rgb(12, 5, 5);">&copy; 2025 Dusk_Dream. All rights reserved.</p>
+      </footer>
+    </footer>
+  </section>
+
+</html>
+</body>
